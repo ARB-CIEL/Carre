@@ -49,4 +49,35 @@ public:
 
     void Afficher();
 
+    int Getsx();
+
+    /**
+     * Affecte la valeur de sy.
+     * La nouvelle valeur pour sy.
+     */
+    void Setsy(int sy1);
+
+    /**
+     * Retourne la valeur de sy.
+     * La valeur actuelle de sy.
+     */
+    int Getsy();
+
+    /**
+     *Affecte la valeur de cote.
+     *  La nouvelle valeur pour cote.
+     */
+    void Setcote(int cote1);
+
+    /**
+     * Retourne la valeur de cote.
+     *  La valeur actuelle de cote.
+     */
+    int GetCote();
+
+    
+    void Afficher();
+
  };
+
+
